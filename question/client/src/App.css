@@ -1,0 +1,87 @@
+/* frontend/src/App.css */
+body {
+    color: #b8881f;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  input {
+    color: gray;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 21px;
+    background-color: #ffffff;
+  }
+  
+  button {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    height: 40px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .item-1 {
+    display: flex;
+  }
+  
+  button.delete {
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button.delete:hover {
+    background-color: #b8881f;
+  }
+  
+  .input-form {
+    display: flex;
+    width: 600px;
+  }
+  
